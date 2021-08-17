@@ -1,0 +1,16 @@
+name: My first action
+
+on:
+  # push 到 master 分支時會觸發
+  push:
+    branches:
+    - master
+
+jobs:
+  build:
+    name: Set up environment
+    runs-on: ubuntu-latest
+    steps:
+    - name: Login
+      run:
+        make dev
