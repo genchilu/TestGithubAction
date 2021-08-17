@@ -14,7 +14,7 @@ jobs:
       image: cymetricsdev.azurecr.io/security/email-auth
       credentials:
         username: ${{ secrets.USER }}
-        password: ${{ secrets.PWD}}
+        password: ${{ secrets.PWD }}
     steps:
     - name: first action
       run: |
