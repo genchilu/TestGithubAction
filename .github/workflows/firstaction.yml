@@ -11,6 +11,7 @@ jobs:
     name: Set up environment
     runs-on: ubuntu-latest
     steps:
+    - uses: actions/checkout@v2
     - name: Login
       run: |
         ls -l
