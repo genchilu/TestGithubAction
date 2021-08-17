@@ -11,7 +11,7 @@ jobs:
     name: Set up environment
     runs-on: ubuntu-latest
     container:
-      image: golang@1.16
+      image: golang:1.16
     steps:
     - uses: actions/checkout@v2
     - name: first action
