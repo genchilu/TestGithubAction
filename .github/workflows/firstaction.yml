@@ -11,7 +11,7 @@ jobs:
     name: Set up environment
     runs-on: ubuntu-latest
     container:
-      image: cymetricsdev.azurecr.io/security/zap-scard
+      image: cymetricsdev.azurecr.io/hello-world
       credentials:
         username: fd43f06b-6880-4d16-a32e-5b240e5568c7
         password: CuF572Epmm_~MGUzn5XsOQAl780_YOcK_N
