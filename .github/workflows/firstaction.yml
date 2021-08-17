@@ -13,4 +13,4 @@ jobs:
     steps:
     - name: Login
       run: |
-        make dev
+        ls -l
