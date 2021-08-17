@@ -19,3 +19,4 @@ jobs:
     - name: first action
       run: |
         echo $HIO
+        echo $GITHUB_REF
