@@ -14,4 +14,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Login
       run: |
-        ls -l
+        make dev
