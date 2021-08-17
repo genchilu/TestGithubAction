@@ -18,4 +18,4 @@ jobs:
     steps:
     - name: first action
       run: |
-        ls -l
+        ls -l /zap
