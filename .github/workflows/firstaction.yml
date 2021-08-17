@@ -10,8 +10,10 @@ jobs:
   build:
     name: Set up environment
     runs-on: ubuntu-latest
+    container:
+      image: golang
     steps:
     - uses: actions/checkout@v2
     - name: first action
       run: |
-        make dev
+        go version
